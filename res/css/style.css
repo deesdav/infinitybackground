@@ -1,0 +1,12 @@
+#background{
+    height: 10000px;
+    width: 10000px;
+   transition: .8s;
+   background-color: rgb(255, 0, 0);
+   
+}
+head, body{
+    height: 100%;
+    margin: auto;
+    overflow: hidden;
+}
