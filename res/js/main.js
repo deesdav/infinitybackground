@@ -1,4 +1,5 @@
 const background = document.getElementById("background");
+const music = document.getElementById("music");
 
 const randomNumber = (maximum, minimum) => {
     const myNum = Math.floor(Math.random() * (maximum - minimum + 1)) + minimum;
@@ -16,3 +17,8 @@ const changeColor = () => {
 setInterval(() => {
     changeColor();
 }, 1000);
+
+setTimeout(() => {
+    document.getElementById("music").play();
+  }, 500)
+ 
